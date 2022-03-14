@@ -1,21 +1,21 @@
-# BigoAd Max Unity Adapter
+ï»¿# BigoAd Max Unity Adapter
 
-## °²×°
-´ÓUnityµÄWindow²Ëµ¥£¬Ñ¡ÔñPackage Manager£¬´ÓMy registeriesÖĞÑ¡Ôñ£ºcom.bigossp.max.adapter.unity °²×°¡£
+## å®‰è£…
+ä»Unityçš„Windowèœå•ï¼Œé€‰æ‹©Package Managerï¼Œä»My registeriesä¸­é€‰æ‹©ï¼šcom.bigossp.max.adapter.unity å®‰è£…ã€‚
 
-## ³õÊ¼»¯
-Ò»¶¨ÒªÔÚ³õÊ¼»¯MaxÖ®Ç°³õÊ¼»¯BigoAd£º
+## åˆå§‹åŒ–
+ä¸€å®šè¦åœ¨åˆå§‹åŒ–Maxä¹‹å‰åˆå§‹åŒ–BigoAdï¼š
 
 ```csharp
 #if UNITY_ANDROID
         var adConfig = new AdConfig.Builder()
                     .SetAppId("YOUR_BIGOAD_APP_ID")
-                    .SetDebug(true) //ĞèÒª²é¿´ÏêÏ¸ÈÕÖ¾ÉèÖÃÎªtrue
+                    .SetDebug(true) //éœ€è¦æŸ¥çœ‹è¯¦ç»†æ—¥å¿—è®¾ç½®ä¸ºtrue
                     .Build();
         BigoAdsdk.Initialize(adConfig, new SDKInitListener());
 #endif
 ```
-SDKInitListenerÀà¶¨ÒåÈçÏÂ£º
+SDKInitListenerç±»å®šä¹‰å¦‚ä¸‹ï¼š
 ```csharp
 public class SDKInitListener : MogafaBase, BigoAdsdk.InitListener
 {
