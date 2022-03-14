@@ -1,16 +1,15 @@
 {
-    "displayName": "Bigoads Unity Max Adapter",
-    "category": "Unity",
-    "description": "Bigoads Unity Max Adapter",
-    "keywords": [
-      "bigoads",
-      "Ad",
-      "unity"
-    ],
-    "author": "mogafa",
-    "name": "com.bigossp.max.adapter.unity",
-    "version": "1.9.0",
-    "type": "library",
-    "unity": "2019.3"
-  }
-  
+  "displayName": "Bigoads Unity Max Adapter",
+  "category": "Unity",
+  "description": "Bigoads Unity Max Adapter",
+  "keywords": [
+    "bigoads",
+    "Ad",
+    "unity"
+  ],
+  "author": "mogafa",
+  "name": "com.bigossp.max.adapter.unity",
+  "version": "1.9.1",
+  "type": "library",
+  "unity": "2019.3"
+}
