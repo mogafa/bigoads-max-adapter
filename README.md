@@ -1,0 +1,1 @@
+# bigoads-max-adapter
